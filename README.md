@@ -1,5 +1,4 @@
 # GlideDemo
-Glide4.0学习Demo
 
 
-Glide4.0的使用
+Glide4.0新特性
