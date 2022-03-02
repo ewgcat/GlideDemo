@@ -2,7 +2,14 @@
 
 buildscript {
     repositories {
-        jcenter()
+              google()
+        maven { url "https://www.jitpack.io" }
+        //友盟更新远程仓库
+        maven { url 'https://repo1.maven.org/maven2/' }
+        //阿里更新远程仓库
+        maven { url 'https://maven.aliyun.com/repository/public/' }
+        maven { url 'https://maven.aliyun.com/repository/spring/'}
+        mavenCentral()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.6.4'
@@ -14,7 +21,14 @@ buildscript {
 
 allprojects {
     repositories {
-        jcenter()
+        google()
+        maven { url "https://www.jitpack.io" }
+        //友盟更新远程仓库
+        maven { url 'https://repo1.maven.org/maven2/' }
+        //阿里更新远程仓库
+        maven { url 'https://maven.aliyun.com/repository/public/' }
+        maven { url 'https://maven.aliyun.com/repository/spring/'}
+        mavenCentral()
     }
 }
 
